@@ -7,6 +7,6 @@
 </picture></a></h2>
 
 <h3 align="left">  A Advanced Project To Detect Digits From a Hand  Written image 📝➡💻➡ 1️⃣9️⃣    Made with  <picture>
-  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.webp" type="image/webp">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.gif" alt="❤" width="20" height="20">
+  <source srcset="https://media.giphy.com/media/eH9sawQbajAQM/giphy.gif" type="image/webp">
+  <img src="https://media.giphy.com/media/eH9sawQbajAQM/giphy.gif" alt="❤" width="99" height="30">
 </picture> </h3>
