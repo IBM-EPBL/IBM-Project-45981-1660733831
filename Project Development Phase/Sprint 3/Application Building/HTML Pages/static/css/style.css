@@ -1,0 +1,47 @@
+.body{
+    background-image: url(/static/css/assets/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.nav-link{
+    margin-right: 50px;
+}
+.nav-item{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 700;
+}
+.nav-item:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
+.brand{
+    margin-left: 50px;
+}
+.form{
+    margin-top:70px;
+    margin-left: 100px;
+    width: 400px;
+}
+.title{
+    color: white;
+    font-size: 40px;
+    color: rgb(51, 103, 245);
+    margin-bottom: 7%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.image{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(51, 103, 245);
+}
+.submit{
+    margin-left: 140px;
+}
+.button{
+    margin-top: 50px;
+}

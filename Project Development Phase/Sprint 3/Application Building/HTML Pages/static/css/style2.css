@@ -1,0 +1,22 @@
+.body{
+    background-image: url("assets/images.jpg");
+    min-height: 100vh;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.heading{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.heading2{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 80px;
+}
