@@ -1,0 +1,8 @@
+packages:
+
+Python-3.9.12
+tensorflow==2.5.0
+keras
+flask
+numpy
+

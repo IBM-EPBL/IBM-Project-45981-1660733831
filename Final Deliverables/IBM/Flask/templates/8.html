@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/style2.css">
+  <link rel="stylesheet" href="static/">
+  <title>Prediction</title>
+</head>
+  <body class="body">
+    <div class="container home">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+          <a class="brand navbar-brand text-light fw-bold" href="#">IBM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-nav-scroll justify-content-end" id="navbarScroll">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="http://127.0.0.1:8000">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="http://127.0.0.1:8000/main">Recognize</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="home">
+        <div class="container-fluid">
+          <h1 class="heading">Predicted Number</h1>
+          <h1 class="heading2">{{showcase}}</h1>
+        </div>
+      </section>
+      <script src="/static/js/bootstrap.min.js"></script>
+      <script src="/static/js/jquery-3.6.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.body{
+    background-image: url("/static/css/assets/image3.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.nav-link{
+    margin-right: 50px;
+}
+.nav-item:hover{
+    text-shadow: 2px 1px 2px rgb(253, 254, 254);
+}
+.nav-item{
+    
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.brand{
+    margin-left: 50px;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 900;
+    font-color:blue;
+}
+.title{
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
