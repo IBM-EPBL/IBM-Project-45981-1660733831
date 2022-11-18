@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recognition</title>
+    <link rel="icon" type="image/x-icon" href="/static/css/assets/icon.png">
+    <link rel="stylesheet" type= "text/css" href= "/static/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script>
+  function preview() {
+    frame.src=URL.createObjectURL(event.target.files[0]);
+}
+
+   
+
+</script>
+
+</head>
+<body class="body">
+  <div class="container home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container-fluid">
+        <a class="brand navbar-brand text-light fw-bold" href="#">IBM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-nav-scroll justify-content-end" id="navbarScroll">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:8000">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <section id="home">
+    <div class="container">
+      <div class="row justify-content-between align-items-center pt-5 g-3">
+        <div class="col-md-6 col-sm-2 col-lg-12" style="width:60%;">
+          <form class="form">
+            <div class="mb-3">
+              <h1 class="title">Digit Recognition</h1>
+	      </form>
+           <section id="content">
+        <div class="leftside">
+
+        <form action = "{{ url_for('upload_image_file') }}" method = "POST" enctype = "multipart/form-data">  
+        <label class="text-light">Select a image:</label>
+        <input id="image" type="file" name="file" accept="image/png, image/jpeg" onchange="preview()"><br><br>
+          <img class="bg-light" id="frame" src="" width="100px" height="100px" alt="Choose an image" />
+          <div class="buttons_div">
+            <button type="input" class="btn btn-light button" id="predict_button">Predict</button>
+          </div>
+        </form>
+        </div>
+  </section>
+      </div> 
+    </div>
+     </section>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery-3.6.1.js"></script>
+</body>
+</html>
