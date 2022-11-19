@@ -1,0 +1,21 @@
+For executing the project in VS code you must follow the steps:
+
+>install all the required packages it will be given in requirements.txt
+
+> Then create a separate folder and include all the webpage related files <index.html,main.html,css,js,static etc..>.
+
+>application pythonfile <app.py> .
+
+>Then choose the directory where you saved all the files then click on the code after then run the code it will perform in the local host like <http://127.0.0.1:8000>.
+
+
+For executing the project in conda promt you must follow the steps:
+
+>Follow the above three steps.
+
+>In the prompt choose the correct destination of the <app.py> folder and the type -python app.py .
+
+>It will also perform in the local host like <http://127.0.0.1:8000>.
+
+>For stop the execution press CTRL+C for windows.
+
